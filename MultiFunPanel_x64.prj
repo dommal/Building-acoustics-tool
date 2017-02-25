@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration target="target.ezdeploy.standalone" target-name="MATLAB Compiler for Standalone Applications" name="MultiFunPanel_x64" location="G:\mado-temp\MultiFunPanel\PROGRAMx64" file="G:\mado-temp\MultiFunPanel\PROGRAMx64\MultiFunPanel_x64.prj" preferred-package-type="package.type.exe" build-checksum="246298910" preferred-package-location="G:\mado-temp\MultiFunPanel\PROGRAMx64\MultiFunPanel_x64\for_redistribution">
+    <param.appname>MultiFunPanel_x64</param.appname>
+    <param.authnamewatermark>Dominika Malkowska</param.authnamewatermark>
+    <param.email>dominika.malkowska@gmail.com</param.email>
+    <param.company>EMPA</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description>The program calculates transmission loss for double leaf element with metal sheets, sandwich panel and single plate.</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.namespace>MultiFunPanel_x64</param.namespace>
+    <param.guid />
+    <param.installpath.string>\EMPA\MultiFunPanel_x64\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\MultiFunPanel_x64\for_testing</param.intermediate>
+    <param.output>${PROJECT_ROOT}\MultiFunPanel_x64\for_redistribution</param.output>
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.classorg />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.user.defined.mcr.options />
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.user.only.registration>false</param.user.only.registration>
+    <param.mads.no.java>false</param.mads.no.java>
+    <param.mads.exclusive.mcr>false</param.mads.exclusive.mcr>
+    <param.net.framework>option.net.framework.default</param.net.framework>
+    <param.assembly.type>false</param.assembly.type>
+    <param.encryption.key.file />
+    <param.net.enable.remoting>false</param.net.enable.remoting>
+    <param.net.tsa.enable>false</param.net.tsa.enable>
+    <param.net.tsa.assembly />
+    <param.net.tsa.interface />
+    <param.net.tsa.namespace>MultiFunPanel_x64</param.net.tsa.namespace>
+    <param.net.tsa.superclass />
+    <param.net.tsa.metadata />
+    <param.net.tsa.metadata.assembly>G:\mado-temp\MultiFunPanel\PROGRAMx64</param.net.tsa.metadata.assembly>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.screenshot />
+      <param.version />
+      <param.namespace />
+      <param.guid />
+      <param.installpath.string />
+      <param.logo />
+      <param.install.notes />
+      <param.intermediate />
+      <param.output />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.classorg />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.user.defined.mcr.options />
+      <param.windows.command.prompt />
+      <param.user.only.registration />
+      <param.mads.no.java />
+      <param.mads.exclusive.mcr />
+      <param.net.framework />
+      <param.assembly.type />
+      <param.encryption.key.file />
+      <param.net.enable.remoting />
+      <param.net.tsa.enable />
+      <param.net.tsa.assembly />
+      <param.net.tsa.interface />
+      <param.net.tsa.namespace />
+      <param.net.tsa.superclass />
+      <param.net.tsa.metadata />
+      <param.net.tsa.metadata.assembly />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\MultiFunPanel.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\double_image.png</file>
+      <file>${PROJECT_ROOT}\J_near_ab1.m</file>
+      <file>${PROJECT_ROOT}\J_near_ab2.m</file>
+      <file>${PROJECT_ROOT}\logo.jpg</file>
+      <file>${PROJECT_ROOT}\MultiFunPanel.fig</file>
+      <file>${PROJECT_ROOT}\question.png</file>
+      <file>${PROJECT_ROOT}\sandwich_image.png</file>
+      <file>${PROJECT_ROOT}\single_image.png</file>
+      <file>${PROJECT_ROOT}\TL_real_only.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file name="MultiFunPanel_x64.exe" location="${PROJECT_ROOT}\MultiFunPanel_x64\for_testing" optional="false">G:\mado-temp\MultiFunPanel\PROGRAMx64\MultiFunPanel_x64\for_testing\MultiFunPanel_x64.exe</file>
+      <file name="readme.txt" location="${PROJECT_ROOT}\MultiFunPanel_x64\for_testing" optional="true">G:\mado-temp\MultiFunPanel\PROGRAMx64\MultiFunPanel_x64\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files (x86)\MATLAB\R2013b</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+      </toolboxes>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>true</os32>
+      <os64>false</os64>
+      <arch>win32</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
+

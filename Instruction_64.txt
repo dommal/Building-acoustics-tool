@@ -1,0 +1,16 @@
+To deploy the tool: (x64)
+
+1. >>deploytool in Command Window
+2. Compiler
+3.Main file: MultiFunPanel.m
+4. Files required:
+	1.MultiFunPanel.fig
+	2.J_near_ab1.m
+	3.J_near_ab2.m
+	4.double_image.png
+	5.single_image.png
+	6.sandwich_image.png
+	7.question.png
+	8.TL_real_only.m
+	9.logo.jpg
+5. Package
